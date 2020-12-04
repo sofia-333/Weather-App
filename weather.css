@@ -1,0 +1,58 @@
+body{
+  padding: 20px;
+  /* background: linear-gradient(rgb(47,150,163), rgb(48,62,143)); */
+  background: radial-gradient(circle, rgb(0, 102, 150) 30%,  rgb(57, 126, 167) 60%, rgb(69, 174, 216) 100%);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: sans-serif;
+}
+.container1{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 20px;
+  margin-top: 180px;
+}
+.container2{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 20px;
+}
+.container3{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column ;
+  margin: 20px;
+}
+button{
+  margin : 8px;
+}
+.degree{
+  font-size:34px;
+}
+.temperature,
+.timezone{
+  margin: 5px;
+  font-size:40px;
+  font-weight: bolder;
+}
+.temperature{
+  cursor: pointer;
+}
+.fas{
+  margin: 8px;
+}
+.fa-city{
+  font-size: 2em;
+}
+.fa-temperature-low{
+  padding-bottom: 15px;
+}
+.icon{
+  height: 200px;
+}
